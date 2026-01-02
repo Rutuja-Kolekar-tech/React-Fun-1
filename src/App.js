@@ -1,10 +1,14 @@
 import './App.css';
-import Hello from './Pages/hello';
+import Counter from './Components/BasicPractice/Counter';
+import Jsx from './Components/BasicPractice/Jsx';
+import Hello from './Components/hello';
 
 function App() {
   return (
     <>
-      <Hello/>
+      <Hello />
+      <Jsx />
+      <Counter/>
     </>
   );
 
