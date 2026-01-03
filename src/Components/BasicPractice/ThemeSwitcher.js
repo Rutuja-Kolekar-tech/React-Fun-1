@@ -13,6 +13,7 @@ const ThemeSwitcher = () => {
         <>
             <div className={theme === "light" ? "bg-black text-white" : "bg-white text-black"}>
                 <h1>Hii I'm Rutuja Learning React with interest </h1>
+                <p>Practice makes man perfect</p>
             <button
                 onClick={() => switchTheme()}
                 className="btn btn-secondary">
