@@ -21,7 +21,8 @@ const Counter = () => {
 
     return (
         <>
-            <h3>Count is = {count}</h3>  
+            <h3>Count is = {count}</h3>
+            
             <button onClick={() => Inc()}>Increase Count</button><br></br>
             <button onClick={() => Dec()}>Decrease Count</button><br></br>
             <button onClick={() => Reset()}>Reset Count</button><br></br>
