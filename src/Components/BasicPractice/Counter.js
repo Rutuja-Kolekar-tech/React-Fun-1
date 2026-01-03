@@ -17,8 +17,6 @@ const Counter = () => {
     const AddByTwo = () => {
         setCount(count + step);
     }
-
-
     return (
         <>
             <h3>Count is = {count}</h3>

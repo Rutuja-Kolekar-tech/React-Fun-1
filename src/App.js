@@ -1,14 +1,16 @@
 import './App.css';
 import Counter from './Components/BasicPractice/Counter';
 import Jsx from './Components/BasicPractice/Jsx';
+import ThemeSwitcher from './Components/BasicPractice/ThemeSwitcher';
 import Hello from './Components/hello';
 
 function App() {
   return (
     <>
-      <Hello />
+      {/* <Hello />
       <Jsx />
-      <Counter/>
+      <Counter /> */}
+      <ThemeSwitcher/>
     </>
   );
 
